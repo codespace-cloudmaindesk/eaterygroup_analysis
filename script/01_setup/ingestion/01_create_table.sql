@@ -1,0 +1,22 @@
+CREATE TABLE eatery_group.bronze.restaurant_ds (
+    restaurant_id VARCHAR(50),
+    restaurant_name VARCHAR(255),
+    country_code INT,
+    city VARCHAR(100),
+    address TEXT,
+    locality VARCHAR(255),
+    locality_verbose TEXT,
+    longitude DECIMAL(10,6),
+    latitude DECIMAL(10,6),
+    cuisines TEXT,
+    currency VARCHAR(50),
+    has_table_booking VARCHAR(10),
+    has_online_delivery VARCHAR(10),
+    is_delivering_now VARCHAR(10),
+    switch_to_order_menu VARCHAR(10),
+    price_range INT,
+    aggregate_rating DECIMAL(3,2),
+    rating_color VARCHAR(20),
+    rating_text VARCHAR(20),
+    votes INT
+);
